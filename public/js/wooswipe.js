@@ -92,12 +92,12 @@
             variableWidth: false,
             dots: false,
             focusOnSelect: false,
-            infinite: false,
+            infinite: true,
             slidesToShow: 5,
             slidesToScroll: 1,
             respondTo: "slider",
-            prevArrow: '<button class="wooswipe-prev slick-arrow slick-disabled" aria-label="Previous" type="button" style=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 80 80"><g id="left" transform="translate(-977 -529)"><circle xmlns="http://www.w3.org/2000/svg" id="Ellipse_1" data-name="Ellipse 1" cx="40" cy="40" r="40" transform="translate(977 529)" fill="'+wooswipe_data['icon_bg_color']+'"/><path id="Icon_awesome-chevron-left" data-name="Icon awesome-chevron-left" d="M2.6,21.735,21.021,3.314a2.275,2.275,0,0,1,3.217,0l2.149,2.149a2.275,2.275,0,0,1,0,3.213l-14.6,14.667,14.6,14.668a2.274,2.274,0,0,1,0,3.213l-2.149,2.149a2.275,2.275,0,0,1-3.217,0L2.6,24.952A2.275,2.275,0,0,1,2.6,21.735Z" transform="translate(1003.067 545.352)" fill="'+wooswipe_data['icon_stroke_color']+'"/></g></svg></button>',
-            nextArrow: '<button class="wooswipe-next slick-arrow" aria-label="Next" type="button" style="" ><svg xmlns="http://www.w3.org/2000/svg" id="right" width="20" height="20" viewBox="0 0 80 80"><circle id="Ellipse_1" data-name="Ellipse 1" cx="40" cy="40" r="40" fill="'+wooswipe_data['icon_bg_color']+'" /><path id="Icon_awesome-chevron-left" data-name="Icon awesome-chevron-left" d="M26.387,21.735,7.965,3.314a2.275,2.275,0,0,0-3.217,0L2.6,5.463a2.275,2.275,0,0,0,0,3.213L17.2,23.344,2.6,38.012a2.274,2.274,0,0,0,0,3.213l2.149,2.149a2.275,2.275,0,0,0,3.217,0L26.387,24.952A2.275,2.275,0,0,0,26.387,21.735Z" transform="translate(24.947 16.352)" fill="'+wooswipe_data['icon_stroke_color']+'"/></svg></button>',
+            prevArrow: '<button class="wooswipe-prev slick-arrow" aria-label="Previous" type="button"><img src="' + wooswipe_wp_plugin_path.templateUrl + '/public/images/arrow_left.svg" alt="Previous" /></button>',
+            nextArrow: '<button class="wooswipe-next slick-arrow" aria-label="Next" type="button"><img src="' + wooswipe_wp_plugin_path.templateUrl + '/public/images/arrow_right.svg" alt="Next" /></button>',
             responsive: [
                 {
                 breakpoint: 680,
